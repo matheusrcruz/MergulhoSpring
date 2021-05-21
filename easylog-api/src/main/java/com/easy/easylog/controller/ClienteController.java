@@ -14,13 +14,13 @@ public class ClienteController {
 	@GetMapping("/clientes")
 	public List<Cliente>Listar(){
 	    Cliente cliente1 = new Cliente();
-	    cliente1.setNome("Singed");
+	    cliente1.setNome("Singed2222");
 		cliente1.setId(1L);
 		cliente1.setTelefone("40028922");
 		cliente1.setEmail("singed@venenoso.com");
 		
 		Cliente cliente2 = new Cliente();
-		cliente2.setNome("Ivern");
+		cliente2.setNome("Ivern11111");
 		cliente2.setId(2L);
 		cliente2.setTelefone("707070707");
 		cliente2.setEmail("Ivern@floresta.com");
